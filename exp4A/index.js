@@ -133,6 +133,4 @@ app.get("/profile", (req, res) => {
 
 // ================= START SERVER =================
 
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
+export default app;
